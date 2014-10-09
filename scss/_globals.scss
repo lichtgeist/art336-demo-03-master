@@ -50,3 +50,9 @@ $background-color-alternate: #d8c0ff;
     50% { background-color: $background-color-alternate; }
     100% { background-color: $background-color; }
 }
+
+@keyframes colorchange-font{
+    0% { color: $background-color; }
+    50% { color: $background-color-alternate; }
+    100% { color: $background-color; }
+}
